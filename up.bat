@@ -20,7 +20,7 @@ git add .
 git commit -m "Initial commit"
 
 echo === Creando repositorio en GitHub ===
-gh repo create %REPO_NAME% --public --source=. --remote=origin --push
+"C:\Program Files\GitHub CLI\gh.exe" repo create %REPO_NAME% --public --source=. --remote=origin --push
 
 echo === DONE ===
 pause
